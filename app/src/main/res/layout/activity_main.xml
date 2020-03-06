@@ -162,41 +162,17 @@
 
     <Button
         android:id="@+id/clrbtn"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="415dp"
+        android:layout_width="305dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="412dp"
         android:background="@android:color/holo_orange_dark"
         android:onClick="Clear"
         android:text="C"
         android:textSize="@android:dimen/app_icon_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/sqbtn"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginLeft="110dp"
-        android:layout_marginBottom="415dp"
-        android:background="@android:color/holo_orange_dark"
-        android:text="SQ"
-        android:textSize="@android:dimen/app_icon_size"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/centbtn"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginLeft="210dp"
-        android:layout_marginBottom="415dp"
-        android:background="@android:color/holo_orange_dark"
-        android:text="%"
-        android:textSize="@android:dimen/app_icon_size"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
 
     <Button
         android:id="@+id/dividebtn"
@@ -262,37 +238,32 @@
         android:textSize="@android:dimen/app_icon_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="OnClick" /> />
+        tools:ignore="OnClick" />
 
     <TextView
         android:id="@+id/DisplayWrite"
-        android:layout_width="386dp"
-        android:layout_height="126dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_width="395dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
+        android:letterSpacing="-0.10"
         android:maxLines="2"
         android:textAlignment="center"
         android:textSize="@android:dimen/app_icon_size"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.235"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024"
-        android:letterSpacing="-0.10"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/Display"
         android:layout_width="387dp"
         android:layout_height="72dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
+        android:letterSpacing="-0.09"
         android:maxLines="1"
-        android:text="0"
+        android:text=""
         android:textSize="@android:dimen/app_icon_size"
         app:layout_constraintTop_toBottomOf="@+id/DisplayWrite"
-        tools:layout_editor_absoluteX="11dp"
-        android:letterSpacing="-0.09"/>
-
+        tools:layout_editor_absoluteX="16dp" />
+//sen indi nece ishliyirsen , noreler  hara yigilir , operatorlar hara ?
 
 </androidx.constraintlayout.widget.ConstraintLayout>
